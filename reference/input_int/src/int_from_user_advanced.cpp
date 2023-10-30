@@ -2,7 +2,7 @@
 #include <limits>
 using namespace std;
 
-int get_int_cin(){
+int get_int_cin(){ // TODO: doesn't account for num first then incorrect val e.g "123adfagew"
     int num;
     while (true) {
         cout << "Insert integer: " << '\n';
